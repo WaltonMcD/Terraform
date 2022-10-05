@@ -20,7 +20,7 @@ ___
 Provision your infastructure and update your state file with your 
 new infastructure.<br /><br />
 `terraform apply`<br /><br />
-To avoid being prompted to accept changes yoy may...<br /><br />
+To avoid being prompted to accept changes you may...<br /><br />
 `terraform apply --auto-approve`
  
 
