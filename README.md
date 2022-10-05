@@ -16,3 +16,11 @@ You may view the execution plan with...<br /><br />
 `terraform plan`<br /><br />
 This will give you a view as to how terraform has created the best execution plan to create your infastructure and decided if this plan is apropriate to your needs.
 ___
+## Apply:
+Provision your infastructure and update your state file with your 
+new infastructure.<br /><br />
+`terraform apply`<br /><br />
+To avoid being prompted to accept changes yoy may...<br /><br />
+`terraform apply --auto-approve`
+ 
+
