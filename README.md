@@ -22,5 +22,12 @@ new infastructure.<br /><br />
 `terraform apply`<br /><br />
 To avoid being prompted to accept changes you may...<br /><br />
 `terraform apply --auto-approve`
- 
+___
+## Destroy
+Its important to review a destroy before conducting one. you may do so as such...<br /><br />
+`terraform plan -destroy`<br /><br /> 
+This will allow the destruction plan to be reviewed. If the plan is correct you can destroy your infastructure as such...<br /><br />
+`terraform destroy`<br /><br />
+To avoid being prompted to accept destruction you may...<br /><br />
+`terraform destroy --auto-approve`
 
