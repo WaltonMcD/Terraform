@@ -1,6 +1,9 @@
 # Terraform
 This repository will create a simple EC2 AWS instance using Terraform and using Terraform cloud to manage access keys and enviroment variables.
 
+You will need to create an account in Terraform Cloud which can be found here -> https://app.terraform.io/session.
+Once you have created an account you will need to provide your AWS access keys as enviroment variables.
+
 ## Clone:
 To clone this repository you will need a valid version of git. <br />
 After doing so you can simply... <br /><br />
