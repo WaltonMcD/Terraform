@@ -14,11 +14,17 @@ ___
 To initialize your terraform provider and state you will need a proper install of Terraform and after so you can simply...<br /><br />
 `terraform init`
 ___
+
+## Format/Validate:
+The `terraform fmt` command is used to rewrite Terraform configuration files to a canonical format and style native to the HashiCorp Configuration Language (HCL). This command applies a variety of style conventions, along with minor adjustments to increase readability.
+
+After formatting I highly suggest using the `terraform validate` command which in turn will validate your configuration files. It will do so without directly accessing any remote services allowing you to save much time where a apply/plan would eventually error.
 ## Plan:
 You may view the execution plan with...<br /><br />
 `terraform plan`<br /><br />
 This will give you a view as to how terraform has created the best execution plan to create your infrastructure and decided if this plan is appropriate to your needs.
 ___
+
 ## Apply:
 Provision your infrastructure and update your state file with your 
 new infrastructure.<br /><br />
@@ -26,6 +32,7 @@ new infrastructure.<br /><br />
 To avoid being prompted to accept changes you may...<br /><br />
 `terraform apply --auto-approve`
 ___
+
 ## Destroy
 Its important to review a destroy before conducting one. you may do so as such...<br /><br />
 `terraform plan -destroy`<br /><br /> 
